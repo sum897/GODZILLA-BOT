@@ -28,7 +28,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
 I am an **SUPERB**  group management bot.
-You can find the list of available commands with /help.
+You can explore the available commands with /help.
 
 """
 
@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Always ONline")
+        update.effective_message.reply_text("Yuss, I am ONline")
 
 
 def send_start(bot, update):
