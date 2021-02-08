@@ -141,13 +141,13 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), 1608740498),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text=🔮"HELP"🔮,
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔮HELP🔮",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text=🛡️"My Creator"🛡️,
+                                                                                   InlineKeyboardButton(text="🛡️My Creator🛡️",
                                                                        url="t.me/godzilla_bot_support")],
-                                                                                   [InlineKeyboardButton(text=⚡"ADD GODZILLA BOT TO YOUR GROUP"⚡,
+                                                                                   [InlineKeyboardButton(text="⚡ADD GODZILLA BOT TO YOUR GROUP⚡",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text=🔖"Source Code",
+                                                                                   InlineKeyboardButton(text="🔖Source Code🔖",
                                                                        url="https://github.com/sum897/GRANDROBOT")
                                                                                  ]]))
 
