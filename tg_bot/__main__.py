@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    [InlineKeyboardButton(text="⚡ADD GODZILLA BOT TO YOUR GROUP⚡",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🔖Updates🔖",
-                                                                       url="t.me/LEAVEIY")
+                                                                       url="t.me/Luminous_Logs")
                                                                                  ]]))
 
     else:
