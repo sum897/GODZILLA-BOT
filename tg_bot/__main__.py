@@ -141,13 +141,13 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), 1608740498),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔮HELP🔮",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="❗❔HELP ❗",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🛡️My Creator🛡️",
+                                                                                   InlineKeyboardButton(text="🔭 MY CREATOR 🔭",
                                                                        url="t.me/LEAVEIY")],
-                                                                                   [InlineKeyboardButton(text="⚡ADD GODZILLA BOT TO YOUR GROUP⚡",
+                                                                                   [InlineKeyboardButton(text="⚡ ADD ME ⚡",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🔖Updates🔖",
+                                                                                   InlineKeyboardButton(text=" 🛎️ UPDATES 🛎️",
                                                                        url="t.me/Luminous_Logs")
                                                                                  ]]))
 
