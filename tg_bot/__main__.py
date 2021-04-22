@@ -29,7 +29,6 @@ PM_START_TEXT = """
 **Hello {}, My Name is 🗡️{}🗡️!** 
 I am a **SUPERB** group management bot.
 
-Maintained by @LEAVEIY
 You can explore the available commands with /help.
 
 """
